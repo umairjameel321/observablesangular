@@ -1,0 +1,69 @@
+{
+    "languages": [
+        "Java",
+        "c#",
+        "Python"
+    ],
+    "student": {
+        "id": 123,
+        "name": "john",
+        "phone": "123456",
+        "age": "21"
+    },
+    "orderbook": {
+        "BuyOrders": [{
+                "OrderType": "LimitBid",
+                "Price": 497.02000000,
+                "Volume": 0.01000000
+            },
+            {
+                "OrderType": "LimitBid",
+                "Price": 490.00000000,
+                "Volume": 1.00000000
+            }
+        ],
+        "CreatedTimestampUtc ": "2014-08-05T06:42:11.3032208Z",
+        "SellOrders": [{
+                "OrderType": "LimitOffer",
+                "Price": 500.00000000,
+                "Volume": 1.00000000
+            },
+            {
+                "OrderType": "LimitOffer",
+                "Price": 505.00000000,
+                "Volume": 1.00000000
+            }
+        ]
+    },
+    "rates": [
+        {
+            "CurrencyCodeA": "Aud",
+            "CurrencyCodeB": "Usd",
+            "Rate": 0.86830000
+        }, {
+            "CurrencyCodeA": "Usd",
+            "CurrencyCodeB": "Aud",
+            "Rate": 1.15170000
+        }
+    ],
+    "latestprices": {
+        "status": "ok",
+        "prices": {
+            "btc": {
+                "bid": "2352",
+                "ask": "3422",
+                "last": "5232"
+            },
+            "ltc": {
+                "bid": "0.342",
+                "ask":"0.343",
+                "last": "0.643"
+            },
+            "doge": {
+                "bid": "23.5",
+                "ask": "23.543",
+                "last": "234"
+            }
+        }
+    }
+}
